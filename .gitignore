@@ -67,3 +67,7 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# Exclude public/admin and public/config.yml for netlify cms
+!public/admin
+!public/config.yml
