@@ -1,8 +1,10 @@
 ---
 title: test
+datePublished: 2020-04-21 13:40:00
+category: programming
+author: Miłosz Mertka
+thumbnail: ""
 ---
-
-# Title
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget gravida massa, eget sollicitudin urna. Morbi id lectus pharetra erat feugiat venenatis. Etiam in justo scelerisque, lobortis diam ut, mollis nunc. Pellentesque cursus augue elit, a pellentesque sapien sodales gravida. Sed rhoncus id sem nec laoreet. Proin consequat felis purus. Fusce malesuada, libero id tempor varius, elit dolor condimentum lacus, vel ullamcorper massa elit eget mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat odio, dapibus nec magna quis, tristique fermentum felis. Sed pharetra nisl nec erat volutpat mattis. Curabitur hendrerit urna ac ex malesuada, sit amet euismod metus elementum. Fusce porttitor velit felis, sed pellentesque nunc vulputate ut. Nunc lacinia, massa sed viverra viverra, enim mauris dictum ligula, quis fermentum urna ante hendrerit mauris.
 
