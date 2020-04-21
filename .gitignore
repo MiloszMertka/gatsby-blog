@@ -56,7 +56,7 @@ typings/
 
 # gatsby files
 .cache/
-public
+public/*
 
 # Mac files
 .DS_Store
@@ -68,6 +68,5 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-# Exclude public/admin and public/config.yml for netlify cms
+# Include public/admin and public/config.yml for netlify cms
 !public/admin
-!public/config.yml
