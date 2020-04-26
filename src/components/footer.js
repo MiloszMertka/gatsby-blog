@@ -2,11 +2,8 @@ import React from "react";
 import styles from "../styles/footer.module.scss";
 import logo from "../images/logo-dark.svg";
 import arrow from "../images/arrow-up.svg";
-import smoothscroll from "smoothscroll-polyfill";
 
 const Footer = () => {
-  smoothscroll.polyfill();
-
   const handleArrowClick = e => {
     e.preventDefault();
     window.scroll({
