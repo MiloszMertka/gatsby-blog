@@ -6,6 +6,10 @@
     left: 1.5rem;
     right: 1.5rem;
   }
+
+  &:hover {
+    color: scale-color($color: #f0f0f0, $lightness: -20%);
+  }
 }
 
 .active {

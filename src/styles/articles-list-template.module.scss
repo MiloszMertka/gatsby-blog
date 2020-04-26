@@ -1,0 +1,23 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  $color: #f0f0f0;
+  text-decoration: none;
+  color: $color;
+  padding: 0.25rem;
+  font-size: 1.25rem;
+  margin: 0 0.5rem;
+
+  &:hover {
+    color: scale-color($color, $lightness: -20%);
+  }
+}
+
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+}

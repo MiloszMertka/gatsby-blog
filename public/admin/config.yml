@@ -1,12 +1,22 @@
 backend:
   name: git-gateway
   branch: master
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
+    uploadMedia: '[skip ci] Upload “{{path}}”'
+    deleteMedia: '[skip ci] Delete “{{path}}”'
+
 publish_mode: editorial_workflow
-media_folder: "public/images/uploads"
+
+media_folder: public/images
+public_folder: /images
+
 collections:
  - name: "article"
    label: "Article"
-   folder: ../../src/articles
+   folder: "src/articles"
    create: true
    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
    fields:

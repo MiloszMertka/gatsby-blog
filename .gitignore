@@ -70,3 +70,4 @@ yarn-error.log
 
 # Include public/admin and public/config.yml for netlify cms
 !public/admin
+!public/images

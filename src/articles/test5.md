@@ -1,14 +1,14 @@
 ---
-title: test
+title: test5
 datePublished: 2020-04-21 13:40:00
 category: programming
 author: Miłosz Mertka
-thumbnail: ""
+thumbnail: "test.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget gravida massa, eget sollicitudin urna. Morbi id lectus pharetra erat feugiat venenatis. Etiam in justo scelerisque, lobortis diam ut, mollis nunc. Pellentesque cursus augue elit, a pellentesque sapien sodales gravida. Sed rhoncus id sem nec laoreet. Proin consequat felis purus. Fusce malesuada, libero id tempor varius, elit dolor condimentum lacus, vel ullamcorper massa elit eget mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat odio, dapibus nec magna quis, tristique fermentum felis. Sed pharetra nisl nec erat volutpat mattis. Curabitur hendrerit urna ac ex malesuada, sit amet euismod metus elementum. Fusce porttitor velit felis, sed pellentesque nunc vulputate ut. Nunc lacinia, massa sed viverra viverra, enim mauris dictum ligula, quis fermentum urna ante hendrerit mauris.
 
-<!-- separator -->
+<!--EndFragment-->
 
 Pellentesque tempus leo ut quam dapibus lobortis. Vivamus maximus ultricies viverra. Pellentesque lobortis lorem vitae massa malesuada, luctus placerat diam pharetra. Vestibulum vestibulum dolor in nunc sollicitudin, id blandit nunc egestas. Etiam dolor felis, volutpat a volutpat sit amet, convallis ac erat. Nulla et sapien elementum, fringilla justo eu, accumsan nulla. Morbi vehicula ex vel maximus placerat.
 

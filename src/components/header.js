@@ -1,10 +1,23 @@
 import React from "react";
+import { graphql, useStaticQuery } from "gatsby";
+import Img from "gatsby-image";
 import Nav from "./nav";
 import Logo from "./logo";
 import styles from "../styles/header.module.scss";
-import gatsbyIcon from "../images/gatsby-icon.png";
 
 const Header = () => {
+  const data = useStaticQuery(graphql`
+    query {
+      file(relativePath: { eq: "gatsby-icon.png" }) {
+        childImageSharp {
+          fixed(width: 60, height: 60) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+    }
+  `);
+
   return (
     <header className={styles.header}>
       <div className={styles.container}>
@@ -13,7 +26,11 @@ const Header = () => {
           rel="nofollow noopener noreferrer"
           target="_blank"
         >
-          <img className={styles.gatsbyIcon} src={gatsbyIcon} alt="Gatsby" />
+          <Img
+            className={styles.gatsbyIcon}
+            fixed={data.file.childImageSharp.fixed}
+            alt="Gatsby"
+          />
         </a>
       </div>
       <div className={`${styles.container} ${styles.logo}`}>
